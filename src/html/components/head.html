@@ -1,0 +1,30 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>@@title</title>
+  <!-- для оптимизации загрузки шрифтов против мигания текста-->
+  <link rel="preload" as="font" type="font/woff2" href="fonts/GolosText-Regular.woff2" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" href="fonts/GolosText-Bold.woff2" crossorigin>
+  <!-- для оптимизации загрузки шрифтов против мигания текста -->
+  <link href="css/normalize.min.css" rel="stylesheet">
+  <link href="css/swiper-bundle.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
+ <script>
+    window.addEventListener('load', function () {
+      document.body.classList.remove('loading');
+      document.getElementById('preloader').style.display = 'none';
+    });
+  </script>
+
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=93db7d8d-d126-4f79-9f10-621804bddd7f&lang=ru_RU"></script>
+  
+  <script src="js/jquery-3.7.1.min.js" defer></script>
+  <script src="js/jquery.validate.min.js" defer></script>
+  <script src="js/jquery.inputmask.min.js" defer></script>
+  <script src="js/swiper-bundle.min.js" defer></script>
+  <script src="js/fslightbox.js" defer></script>
+  <script type="module" src="js/imgLazy.js" defer></script>
+  <script type="module" src="js/main.js"></script>
+  <!-- <img img-lazy data-src="img/..." alt="..." >разметка для того чтобы картинка загружалась с оптимизацией только когда попадает в облость видимости-->
+</head>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+  @@include('html/components/head.html',{"title":"Список страниц - ..."})
+  <style>
+    html,
+    body,
+    .page-wrapper {
+      height: 100%;
+    }
+    .page-wrapper {
+      overflow: auto;
+    }
+    .pages-intro {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+      margin: 0 auto;
+      padding: 100px 40px;
+    }
+    .pages-intro__logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 200px;
+      font-family: var(--font-family);
+      font-weight: 800;
+      font-size: 32px;
+      color: var(--black, #252423);
+      border: 2px solid var(--green, #15B747);
+    }
+    .pages-intro__list {
+      margin: 0;
+      padding: 60px 0 0 20px;
+      list-style-type: none;
+      border-left: 2px solid var(--green, #15B747);
+    }
+    .pages-intro__list > li {
+      position: relative;
+    }
+    .pages-intro__list > li:not(:last-child) {
+      margin-bottom: 16px;
+    }
+    .pages-intro__list > li:before {
+      content: "";
+      position: absolute;
+      top: calc(50% - 2px);
+      right: calc(100% + 10px);
+      transform: translateY(-50%);
+      display: block;
+      width: 10px;
+      height: 2px;
+      background: var(--green, #15B747);
+    }
+    .pages-intro__list > li > a {
+      font-size: 24px;
+      line-height: 1;
+      font-weight: 600px;
+      color: var(--black, #252423);
+    }
+    .pages-intro__list > li > a:hover {
+      text-decoration: underline;
+    }
+  </style>
+  <body>
+    @@include('html/components/preloader.html')
+    <div class="pages-intro">
+      <div class="pages-intro__logo">...</div>
+      <ul class="pages-intro__list">
+        <li>
+          <a href="main.html">Главная страница</a>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>

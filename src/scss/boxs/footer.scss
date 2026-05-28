@@ -1,0 +1,249 @@
+.footer {
+  position: relative;
+  min-height: 513px;
+  padding: 52px 0 32px;
+  color: var(--white);
+  background-color: var(--black-light);
+  border-radius: 28px 28px 0 0;
+  overflow: hidden;
+}
+
+.footer__decor {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 34.27%;
+    max-width: 658px;
+    height: 68px;
+    background: linear-gradient(to top, rgba(25, 25, 25, 0), var(--black-light));
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 251px;
+    height: 99px;
+    background: linear-gradient(105deg, rgba(25, 25, 25, 0) 38.91%, var(--black-light) 75.42%);
+  }
+}
+
+.footer__decor-lines {
+  position: absolute;
+  top: -95px;
+  right: -120px;
+  width: min(62vw, 1005px);
+  height: auto;
+  max-width: none;
+  transform: rotate(-101.47deg);
+}
+
+.footer__decor-glow {
+  position: absolute;
+  top: 106px;
+  right: clamp(80px, calc(50% - 86px), 242px);
+  width: 304px;
+  height: 304px;
+  max-width: none;
+  transform: rotate(-135deg);
+}
+
+.footer__inner {
+  position: relative;
+  z-index: 1;
+}
+
+.footer__top {
+  display: flex;
+  align-items: flex-start;
+  gap: 163px;
+  max-width: 785px;
+  margin-bottom: 68px;
+}
+
+.footer__logo {
+  display: flex;
+  flex-shrink: 0;
+  width: 266px;
+  height: 68px;
+
+  img {
+    display: block;
+    width: 266px;
+    height: 68px;
+    object-fit: contain;
+  }
+}
+
+.footer__nav {
+  display: flex;
+  gap: 116px;
+}
+
+.footer__menu {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.footer__menu-link {
+  font-size: 18px;
+  line-height: 20px;
+  color: var(--white);
+  white-space: nowrap;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.footer__slogan {
+  position: absolute;
+  top: 236px;
+  right: clamp(24px, 15.47vw, 297px);
+  z-index: 1;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.8px;
+  text-align: right;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.footer__contacts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 56px;
+  margin-bottom: 24px;
+}
+
+.footer__contact {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  max-width: 407px;
+
+  &:nth-child(2) {
+    max-width: 162px;
+  }
+
+  &:nth-child(3) {
+    max-width: 156px;
+  }
+}
+
+.footer__contact-label {
+  font-size: 15px;
+  line-height: 1.2;
+  color: var(--gray-200);
+}
+
+.footer__contact-value {
+  font-size: 18px;
+  line-height: 1.22;
+  color: var(--white);
+}
+
+.footer__social {
+  margin-bottom: 64px;
+}
+
+.footer__social-label {
+  margin-bottom: 4px;
+  font-size: 14px;
+  line-height: 1.2;
+  color: var(--gray-400);
+}
+
+.footer__social-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer__social-link {
+  display: inline-block;
+  padding-bottom: 3px;
+  font-size: 16px;
+  line-height: 1.2;
+  color: var(--white);
+  border-bottom: 1px solid var(--white);
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.footer__bottom {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px 213px;
+}
+
+.footer__bottom-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer__copyright {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  font-size: 13px;
+  line-height: 18px;
+  color: var(--gray-50);
+
+  span {
+    opacity: 0.5;
+  }
+}
+
+.footer__policy {
+  font-size: 13px;
+  line-height: 18px;
+  color: var(--gray-50);
+  text-decoration: underline;
+  text-underline-position: from-font;
+  opacity: 0.5;
+  white-space: nowrap;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.footer__dev {
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  line-height: 18px;
+  color: var(--gray-200);
+  opacity: 0.5;
+  white-space: nowrap;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.footer__dev-logo {
+  display: block;
+  flex-shrink: 0;
+  width: 22px;
+  height: 14px;
+  object-fit: contain;
+}

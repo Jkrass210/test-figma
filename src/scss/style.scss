@@ -1,0 +1,15 @@
+// Импорты ниже генерируются Gulp. Закомментируйте ненужные строки.
+
+/* auto-imports:start */
+
+// components
+@use "components/basic";
+@use "components/cookie";
+@use "components/fonts";
+@use "components/modal";
+@use "components/preloader";
+// boxs
+@use "boxs/header";
+@use "boxs/footer";
+
+/* auto-imports:end */

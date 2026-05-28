@@ -1,0 +1,44 @@
+/* Стили для модалки */
+.modal {
+  display: none; /* Скрыта по умолчанию */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7); /* Прозрачный фон */
+  z-index: 9999;
+  justify-content: center;
+  overflow: auto;
+  padding: 60px 16px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  @media (max-width: 1000px) {
+    padding: 30px 16px;
+  }
+  @media (max-width: 550px) {
+    padding: 20px 10px;
+  }
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  &-open {
+    //overflow: hidden;
+  }
+  &__body {
+    position: relative;
+    max-width: 100%;
+    margin: auto 0;
+  }
+}
+
+/* Анимация для появления модалки */
+.modal.show {
+  display: flex;
+  animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}

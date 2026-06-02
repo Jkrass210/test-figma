@@ -11,6 +11,53 @@ function buildOptionsForSlider(slider) {
   const commonOptions = {};
 
   // Уникальные параметры для каждого слайдера через класс
+  if (slider.classList.contains('swiper-developments')) {
+    const root = slider.closest('.developments__products');
+
+    return {
+      ...commonOptions,
+      slidesPerView: 1,
+      spaceBetween: 16,
+      watchOverflow: true,
+      breakpoints: {
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        1200: {
+          slidesPerView: 3,
+          spaceBetween: 24,
+        },
+      },
+      navigation: {
+        nextEl: root?.querySelector('.developments__nav-btn--next'),
+        prevEl: root?.querySelector('.developments__nav-btn--prev'),
+      },
+    };
+  }
+
+  if (slider.classList.contains('swiper-partners')) {
+    return {
+      ...commonOptions,
+      slidesPerView: 'auto',
+      spaceBetween: 56,
+      loop: true,
+      speed: 600,
+      autoplay: {
+        delay: 4000,
+        disableOnInteraction: false,
+      },
+      breakpoints: {
+        550: {
+          spaceBetween: 40,
+        },
+        1000: {
+          spaceBetween: 56,
+        },
+      },
+    };
+  }
+
   if (slider.classList.contains('swiper-decision')) {
     return {
       ...commonOptions,

@@ -1,1 +1,1 @@
-import{testWebP}from"./module/testWebP.js";import{test}from"./module/test.js";test(),testWebP(function(e){1==e?(document.querySelector("body").classList.add("webp"),console.log("выполнился webp")):document.querySelector("body").classList.add("no-webp")});
+import{testWebP}from"./module/testWebP.js";import{test}from"./module/test.js";import{initSwiperAuto}from"./module/swiper.js";test(),initSwiperAuto(),testWebP(function(e){1==e?(document.querySelector("body").classList.add("webp"),console.log("выполнился webp")):document.querySelector("body").classList.add("no-webp")});

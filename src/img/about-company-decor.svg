@@ -1,0 +1,31 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 1883.34 1251.59" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group">
+<path id="Vector" d="M0.000412778 514.406H2.80367C544.849 514.406 1072.23 382.834 1505.76 139.44L1675.78 43.9963" stroke="var(--stroke-0, #00CB62)" stroke-width="0.9" stroke-miterlimit="10"/>
+<path id="Vector_2" d="M0.000160763 517.263H2.64091C544.808 517.263 1072.31 402.19 1505.84 189.334L1675.82 105.772" stroke="var(--stroke-0, #00CB62)" stroke-width="1.07" stroke-miterlimit="10"/>
+<path id="Vector_3" d="M0.00018573 520.119H2.47843C544.727 520.119 1072.35 421.546 1505.92 239.198L1675.82 167.547" stroke="var(--stroke-0, #00CB62)" stroke-width="1.23" stroke-miterlimit="10"/>
+<path id="Vector_4" d="M8.58274e-05 523.006H2.2752C544.645 523.006 1072.35 440.933 1505.96 289.092L1675.78 229.383" stroke="var(--stroke-0, #00CB62)" stroke-width="1.4" stroke-miterlimit="10"/>
+<path id="Vector_5" d="M8.96508e-05 525.863H2.11269C544.605 525.863 1072.39 460.289 1506.08 338.957L1675.82 291.159" stroke="var(--stroke-0, #00CB62)" stroke-width="1.57" stroke-miterlimit="10"/>
+<path id="Vector_6" d="M0.000356132 528.718H1.95045C544.524 528.718 1072.43 479.644 1506.16 388.819L1675.82 352.933" stroke="var(--stroke-0, #00CB62)" stroke-width="1.74" stroke-miterlimit="10"/>
+<path id="Vector_7" d="M0.000343824 531.575H1.7473C544.442 531.575 1072.43 499.001 1506.2 438.684L1675.78 414.709" stroke="var(--stroke-0, #00CB62)" stroke-width="1.91" stroke-miterlimit="10"/>
+<path id="Vector_8" d="M0.000347648 534.432H1.5848C544.402 534.432 1072.47 518.357 1506.29 488.548L1675.78 476.485" stroke="var(--stroke-0, #00CB62)" stroke-width="2.07" stroke-miterlimit="10"/>
+<path id="Vector_9" d="M0.000233529 537.288H1.42218C544.32 537.288 1072.51 537.713 1506.41 538.443L1675.82 538.291" stroke="var(--stroke-0, #00CB62)" stroke-width="2.24" stroke-miterlimit="10"/>
+<path id="Vector_10" d="M0.000215796 540.144H1.21903C544.239 540.144 1072.55 557.069 1506.45 588.306L1675.78 600.066" stroke="var(--stroke-0, #00CB62)" stroke-width="2.41" stroke-miterlimit="10"/>
+<path id="Vector_11" d="M6.9963e-05 543.03H1.05637C544.198 543.03 1072.59 576.455 1506.53 638.2L1675.78 661.871" stroke="var(--stroke-0, #00CB62)" stroke-width="2.58" stroke-miterlimit="10"/>
+<path id="Vector_12" d="M0.000366108 545.887H0.894159C544.117 545.887 1072.63 595.811 1506.61 688.064L1675.82 723.677" stroke="var(--stroke-0, #00CB62)" stroke-width="2.75" stroke-miterlimit="10"/>
+<path id="Vector_13" d="M0.000211487 548.743H0.69087C544.036 548.743 1072.63 615.168 1506.69 737.928L1675.82 785.453" stroke="var(--stroke-0, #00CB62)" stroke-width="2.92" stroke-miterlimit="10"/>
+<path id="Vector_14" d="M0.000183182 551.6H0.528334C543.995 551.6 1072.67 634.524 1506.77 787.792L1675.82 847.228" stroke="var(--stroke-0, #00CB62)" stroke-width="3.08" stroke-miterlimit="10"/>
+<path id="Vector_15" d="M6.08218e-05 554.455H0.365704C543.914 554.455 1072.71 653.879 1506.85 837.655L1675.82 909.003" stroke="var(--stroke-0, #00CB62)" stroke-width="3.25" stroke-miterlimit="10"/>
+<path id="Vector_16" d="M0.000241223 557.312H0.162749C543.833 557.312 1072.71 673.236 1506.89 887.55L1675.78 970.809" stroke="var(--stroke-0, #00CB62)" stroke-width="3.42" stroke-miterlimit="10"/>
+<path id="Vector_17" d="M0.000401026 560.169C543.792 560.169 1072.76 692.592 1507.02 937.414L1675.82 1032.58" stroke="var(--stroke-0, #00CB62)" stroke-width="3.59" stroke-miterlimit="10"/>
+<g id="Ellipse 7" opacity="0.8" filter="url(#filter0_f_2024_216)">
+<ellipse cx="121.392" cy="330.173" rx="121.392" ry="330.173" transform="matrix(0.13248 0.991186 0.993841 -0.110816 710.579 542.062)" fill="var(--fill-0, #00CB62)"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_2024_216" x="226.26" y="0" width="1657.08" height="1251.59" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="250" result="effect1_foregroundBlur_2024_216"/>
+</filter>
+</defs>
+</svg>

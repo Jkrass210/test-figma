@@ -8,9 +8,9 @@
   <link rel="preload" as="font" type="font/woff2" href="fonts/GolosText-Regular.woff2" crossorigin>
   <link rel="preload" as="font" type="font/woff2" href="fonts/GolosText-Bold.woff2" crossorigin>
   <!-- для оптимизации загрузки шрифтов против мигания текста -->
-  <link href="css/normalize.min.css?_v=20260528190123" rel="stylesheet">
-  <link href="css/swiper-bundle.min.css?_v=20260528190123" rel="stylesheet">
-  <link href="css/style.css?_v=20260528190123" rel="stylesheet">
+  <link href="css/normalize.min.css?_v=20260602181530" rel="stylesheet">
+  <link href="css/swiper-bundle.min.css?_v=20260602181530" rel="stylesheet">
+  <link href="css/style.css?_v=20260602181530" rel="stylesheet">
 
  <script>
     window.addEventListener('load', function () {
@@ -19,15 +19,15 @@
     });
   </script>
 
-  <script src="https://api-maps.yandex.ru/2.1/?apikey=93db7d8d-d126-4f79-9f10-621804bddd7f&lang=ru_RU&_v=20260528190123"></script>
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=93db7d8d-d126-4f79-9f10-621804bddd7f&lang=ru_RU&_v=20260602181530"></script>
   
-  <script src="js/jquery-3.7.1.min.js?_v=20260528190123" defer></script>
-  <script src="js/jquery.validate.min.js?_v=20260528190123" defer></script>
-  <script src="js/jquery.inputmask.min.js?_v=20260528190123" defer></script>
-  <script src="js/swiper-bundle.min.js?_v=20260528190123" defer></script>
-  <script src="js/fslightbox.js?_v=20260528190123" defer></script>
-  <script type="module" src="js/imgLazy.js?_v=20260528190123" defer></script>
-  <script type="module" src="js/main.js?_v=20260528190123"></script>
+  <script src="js/jquery-3.7.1.min.js?_v=20260602181530" defer></script>
+  <script src="js/jquery.validate.min.js?_v=20260602181530" defer></script>
+  <script src="js/jquery.inputmask.min.js?_v=20260602181530" defer></script>
+  <script src="js/swiper-bundle.min.js?_v=20260602181530" defer></script>
+  <script src="js/fslightbox.js?_v=20260602181530" defer></script>
+  <script type="module" src="js/imgLazy.js?_v=20260602181530" defer></script>
+  <script type="module" src="js/main.js?_v=20260602181530"></script>
   <!-- <picture><source data-srcset="img/..." srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  img-lazy data-src="img/..." alt="..." ></picture>разметка для того чтобы картинка загружалась с оптимизацией только когда попадает в облость видимости-->
 </head>
 
@@ -86,7 +86,198 @@
 </header>
 
   <main class="main">
-    
+    <section class="hero">
+  <div class="hero__bg">
+    <picture>
+      <img src="img/hero-bg.png" width="1920" height="952" alt="" aria-hidden="true" loading="eager">
+    </picture>
+  </div>
+
+  <div class="container">
+    <h1 class="hero__title">
+      <span class="hero__title-line">Единый научно-технический центр Группы «НЭК»</span>
+      <span class="hero__title-line">Ведущий разработчик в сфере IoT, энергетики и изделий электронной компонентной базы</span>
+    </h1>
+  </div>
+</section>
+
+    <section class="about-company">
+  <div class="about-company__decor" aria-hidden="true">
+    <img class="about-company__decor-img" src="img/about-company-decor.svg" width="1676" height="989" alt="">
+  </div>
+
+  <div class="about-company__inner">
+    <div class="about-company__main">
+      <div class="about-company__content">
+        <h2 class="about-company__title">О компании</h2>
+        <p class="about-company__text">
+          Единый научно-технический центр «НЭК.ТЕХ» – технологическая IT-компания, осуществляет научно-исследовательскую, опытно-конструкторскую деятельность, разработку электронной компонентной базы, электронной продукции, телекоммуникационных систем, защищённых с&nbsp;использованием криптографических средств защиты информации, а&nbsp;также отраслевых технических регламентов и&nbsp;нормативной документации.
+        </p>
+      </div>
+
+      <div class="about-company__actions">
+        <a class="about-company__btn about-company__btn--download" href="#" download>
+          <span class="about-company__btn-text">Презентация компании</span>
+          <img class="about-company__btn-icon" src="img/about-company-download.svg" width="22" height="22" alt="" aria-hidden="true">
+        </a>
+        <a class="about-company__btn" href="#">Читать полностью</a>
+      </div>
+    </div>
+
+    <ul class="about-company__stats list-reset">
+      <li class="about-company__stat">
+        <p class="about-company__stat-value">&gt;50</p>
+        <p class="about-company__stat-label">
+          <span>НИОКР</span>
+          <span>проектов</span>
+        </p>
+      </li>
+      <li class="about-company__stat">
+        <p class="about-company__stat-value">55</p>
+        <p class="about-company__stat-label about-company__stat-label--sm">
+          <span>ИТ-решений</span>
+          <span>в Реестре Минцифры</span>
+        </p>
+      </li>
+      <li class="about-company__stat">
+        <p class="about-company__stat-value">&gt;200</p>
+        <p class="about-company__stat-label about-company__stat-label--sm">Результаты интеллектуальной деятельности (РИД)</p>
+      </li>
+      <li class="about-company__stat about-company__stat--cities">
+        <p class="about-company__stat-value about-company__stat-value--row">
+          <span class="about-company__stat-num">5</span>
+          <span class="about-company__stat-word">городов</span>
+        </p>
+        <p class="about-company__stat-label">Присутствия компании</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+    <section class="developments">
+  <div class="developments__corners" aria-hidden="true">
+    <img class="developments__corner developments__corner--left" src="img/developments/corner-left.svg" width="28" height="28" alt="">
+    <img class="developments__corner developments__corner--right" src="img/developments/corner-right.svg" width="28" height="28" alt="">
+  </div>
+
+  <div class="container developments__inner">
+    <h2 class="developments__title">Наши разработки</h2>
+
+    <div class="developments__products">
+      <div class="swiper-container swiper-developments">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <article class="developments-card">
+              <div class="developments-card__content">
+                <img class="developments-card__icon" src="img/developments/icon-software.svg" width="52" height="52" alt="" aria-hidden="true">
+                <div class="developments-card__info">
+                  <h3 class="developments-card__name">
+                    <span>Программное</span>
+                    <span>обеспечение</span>
+                  </h3>
+                  <p class="developments-card__text">Встроенное программное обеспечение выполняет функции сбора, обработки, передачи и&nbsp;хранения данных о&nbsp;потреблении ресурсов (электроэнергии/воды/газа)</p>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="swiper-slide">
+            <article class="developments-card">
+              <div class="developments-card__content">
+                <img class="developments-card__icon" src="img/developments/icon-microchip.svg" width="52" height="52" alt="" aria-hidden="true">
+                <div class="developments-card__info">
+                  <h3 class="developments-card__name">
+                    <span>Дизайн</span>
+                    <span>центр</span>
+                  </h3>
+                  <p class="developments-card__text">Разработка отечественной электронно-компонентной базы: микроконтроллеров, аналого-цифрового преобразователя (АЦП), датчика магнитного поля, реле и&nbsp;других изделий.</p>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="swiper-slide">
+            <article class="developments-card">
+              <div class="developments-card__content">
+                <img class="developments-card__icon" src="img/developments/icon-security.svg" width="52" height="52" alt="" aria-hidden="true">
+                <div class="developments-card__info">
+                  <h3 class="developments-card__name">Средства защиты информации</h3>
+                  <p class="developments-card__text">СКЗИ предназначено для&nbsp;встраивания в&nbsp;коммуникационные устройства в&nbsp;автоматизированных системах управления и&nbsp;системах межмашинного взаимодействия</p>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="swiper-slide">
+            <article class="developments-card">
+              <div class="developments-card__content">
+                <img class="developments-card__icon" src="img/developments/icon-security.svg" width="52" height="52" alt="" aria-hidden="true">
+                <div class="developments-card__info">
+                  <h3 class="developments-card__name">Средства защиты информации</h3>
+                  <p class="developments-card__text">СКЗИ предназначено для&nbsp;встраивания в&nbsp;коммуникационные устройства в&nbsp;автоматизированных системах управления и&nbsp;системах межмашинного взаимодействия</p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <div class="developments__control">
+        <div class="developments__nav">
+          <button type="button" class="developments__nav-btn developments__nav-btn--prev btn-reset" aria-label="Предыдущая разработка">
+            <img src="img/developments/arrow-prev.svg" width="20" height="12" alt="" aria-hidden="true">
+          </button>
+          <button type="button" class="developments__nav-btn developments__nav-btn--next btn-reset" aria-label="Следующая разработка">
+            <img src="img/developments/arrow-next.svg" width="32" height="12" alt="" aria-hidden="true">
+          </button>
+        </div>
+        <a class="developments__all-link" href="#">Все разработки</a>
+      </div>
+    </div>
+
+    <h2 class="developments__trust-title">
+      <span class="developments__trust-accent">Нам доверяют</span>
+      <span class="developments__trust-text"> крупнейшие российские компании энергетического сектора</span>
+    </h2>
+  </div>
+
+  <div class="developments__partners">
+    <div class="developments__partners-fade developments__partners-fade--left" aria-hidden="true"></div>
+    <div class="swiper-container swiper-partners">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="developments-partner">
+            <img class="developments-partner__logo" src="img/developments/partners/inter-rao.svg" width="255" height="73" alt="Интер РАО Электрогенерация">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="developments-partner">
+            <img class="developments-partner__logo developments-partner__logo--color" src="img/developments/partners/rosseti.svg" width="254" height="73" alt="Россети">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="developments-partner">
+            <img class="developments-partner__logo" src="img/developments/partners/mosenergosbyt.svg" width="342" height="59" alt="Мосэнергосбыт">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="developments-partner">
+            <picture><source srcset="img/developments/partners/rushydro.webp" type="image/webp"><img class="developments-partner__logo" src="img/developments/partners/rushydro.png" width="221" height="81" alt="РусГидро"></picture>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="developments-partner">
+            <img class="developments-partner__logo" src="img/developments/partners/rosseti-ural.svg" width="242" height="76" alt="Россети Урал">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="developments-partner">
+            <picture><source srcset="img/developments/partners/moek.webp" type="image/webp"><img class="developments-partner__logo developments-partner__logo--tall" src="img/developments/partners/moek.png" width="138" height="84" alt="МОЭК"></picture>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="developments__partners-fade developments__partners-fade--right" aria-hidden="true"></div>
+  </div>
+</section>
+
   </main>
   <footer class="footer">
   <div class="footer__decor" aria-hidden="true">
